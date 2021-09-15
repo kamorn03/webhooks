@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 
 
-app.post('/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('hello')
 })
 
